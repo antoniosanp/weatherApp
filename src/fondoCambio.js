@@ -1,10 +1,11 @@
  const mapa = new Map([
-        [/clear/i, "src/veletaSol.png"],       
-        [/cloud/i, "src/veletaNublado.png"],   
-        [/rain/i, "src/veletaLluvia.png"],     
-        [/snow/i, "src/veletaNieve.png"],     
+        [/snow/i, "src/VeletaNieve.png"],     
         [/storm/i, "src/veletaTormenta.png"],  
-        [/fog|mist/i, "src/veletaNeblina"]  
+        [/clear/i, "src/veletaSol.png"],  
+        [/rain/i, "src/veletaLluvia.png"],     
+        [/fog|mist/i, "src/veletaNeblina"], 
+        [/cloud/i, "src/veletaNublado.png"]  
+          
     ]);
 
     let nuevoFondo = null;
